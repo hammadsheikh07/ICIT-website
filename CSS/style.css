@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+    height: 100vh;
+}
+
+header {
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav {
+	margin-top: 25px;
+    background-color: rgb(70, 172, 255);
+    padding: 25px;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main-nav li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a {
+	border-bottom: 1px solid white;
+}
+
+.main-nav li a:hover {
+	border-bottom: 1px solid white;
+}
+
+.logo {
+	max-width: 100%;
+}
+.row {
+    margin-top: 30px;
+	padding-left: 15px;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.top-head {
+    font-family: "Roboto", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: 190px;
+}
+.banner{
+	width:100%;
+	margin-top: 50px;
+}
+.side-img{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+}
+.pointer
+{
+    margin-top:50px;
+    background-color: rgb(70, 172, 255);
+    padding: 8px;
+	font-family: "Roboto",sans-serif;
+	font-size: 30px;
+    width: fit-content;
+}
+.v-partner{
+	padding:30px;
+	display: flex;
+	margin-top: 20px;
+	font-family: "Roboto", sans-serif;
+	color: black;
+}
+.v-details{
+	text-align: start;
+	margin-left: 30px;
+}
+.v-head{
+	text-transform: uppercase;
+	font-size: 50px;
+}
+.sec1{
+	background-color: rgb(213, 236, 255);
+	font-family: "Roboto", sans-serif;
+	color: black;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.v-des{
+	max-width: 200px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.sec1data{
+	font-size: 18px;
+	max-width:600px;
+}
+.sec1list{
+	padding: 20px;
+}
+.timetable{
+	width:700px;
+}
+@media screen and (max-width: 1000px) {
+	.row{
+		padding-left: 5px;
+		padding-right: 0;
+	}
+	.logo{
+		width: 120px;
+	}	
+	.top-head{
+		margin-left: 10px;
+		font-size: 8px;
+	}
+	.main-nav li {
+		display:flex;
+		margin-top: 4px;
+	}
+	.side-img{
+		width:200px;
+	}
+	.v-partner{
+		padding:10px;
+	}
+	.v-head{
+		font-size: 18px;
+	}
+	.v-des{
+		display: none;
+	}
+	.timetable{
+		width:350px;
+	}
+}
